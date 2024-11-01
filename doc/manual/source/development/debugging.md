@@ -11,7 +11,6 @@ In the development shell, set the `mesonBuildType` environment variable to `debu
 ```
 
 Then, proceed to build Nix as described in [Building Nix](./building.md).
-This will build Nix with debug symbols, which are essential for effective debugging.
 
 ## Debugging the Nix binary
 
