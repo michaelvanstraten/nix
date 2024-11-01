@@ -2,7 +2,7 @@
 
 This section shows how to build and debug Nix with debug symbols enabled.
 
-## Building Nix with Debug Symbols
+## Building Nix with debug symbols
 
 In the development shell, set the `mesonBuildType` environment variable to `debug` before configuring the build:
 
@@ -13,7 +13,7 @@ In the development shell, set the `mesonBuildType` environment variable to `debu
 Then, proceed to build Nix as described in [Building Nix](./building.md).
 This will build Nix with debug symbols, which are essential for effective debugging.
 
-## Debugging the Nix Binary
+## Debugging the Nix binary
 
 Obtain your preferred debugger within the development shell:
 
@@ -27,7 +27,7 @@ On macOS, use `lldb`:
 [nix-shell]$ nix-shell -p lldb
 ```
 
-### Launching the Debugger
+### Launching the debugger
 
 To debug the Nix binary, run:
 
@@ -41,7 +41,7 @@ On macOS, use `lldb`:
 [nix-shell]$ lldb -- ../outputs/out/bin/nix
 ```
 
-### Using the Debugger
+### Using the debugger
 
 Inside the debugger, you can set breakpoints, run the program, and inspect variables.
 
